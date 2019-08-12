@@ -1,0 +1,5 @@
+{
+	"bing-api": "AnEDShpBA52Ryd4nsZpiyOwsb4GUSZkNTzEkqueYF4EfFbyzAYKBWlrI1SP8oHRs",
+	"ipstack-api": "ba446c024cd4d56a8fe906d681b3106d",
+    "ipinfoKey": "4fe117db32aef0"
+}

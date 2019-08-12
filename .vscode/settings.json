@@ -1,0 +1,20 @@
+{
+    "python.pythonPath": "C:\\Users\\Mina\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "editor.minimap.maxColumn": 60,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.fontFamily": "'Monaco'",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.renderIndentGuides": "always",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSaveTimeout": 500,
+    "python.analysis.diagnosticPublishDelay": 10,
+    "python.linting.pylintPath": "C:\\Users\\Mina\\AppData\\Roaming\\Python\\Python37\\Scripts\\pylint.exe",
+    "editor.fontSize": 13
+}

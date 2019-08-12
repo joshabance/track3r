@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{proj-title:} | {ip-web:}</title>
+	<!-- link assets needed, bootstrap css and sansation font-->
+	<link rel="stylesheet" type="text/css" href="./assets/flatly-bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<span>
+				<img src="./assets/banner.png">
+			</span>
+		</div>
+	</header>
+
+	<div class="main container">
+		<div class="card text-black border-info mb-4" style="max-width: 40rem;">
+		    <div class="card-header" style="font-weight: bolder; font-size: 24px;">Project Name: <span id="project-name">{proj-name:}</span> <span id="project-status">{proj-status:}</span></div>
+		</div>
+		<div class="card text-black border-secondary mb-12" style="max-width: 120rem;">
+		    <div class="card-header"><span id="start-time">START: {start-time:}</span> <span id="end-time">FINISHED: {end-time:}</span></div>
+		</div>
+
+		<!-- main ip/web details -->
+		<div class="card bg-primary mb-0 float-left" style="max-width: 49%; width: 45rem;">
+			<div class="card-header text-white">TRACK DETAILS of: <span id="ipweb">{ipweb-here:}</span></div>
+
+			<div class="card text-white bg-dark mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">IP Address</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{ip-address:}</h4>
+			    </div>
+			</div>
+			<div class="card text-black border-success mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Hostname</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{host-name:}</h4>
+			    </div>
+			</div>
+			<div class="card text-white bg-info mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Country</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{ip-country:}</h4>
+			    </div>
+			</div>
+		</div>
+
+		<!-- main location info -->
+		<div class="card bg-primary mb-4 float-right" style="max-width: 49%; width: 45rem;">
+			<div class="card-header text-white">LOCATION Info: <span id="ipweb">{ipweb-here:}</span></div>
+			<div class="card text-white bg-danger mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">City</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{ip-city:}</h4>
+			    </div>
+			</div>
+
+			<div class="card text-white bg-warning mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Region</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{ip-region:}</h4>
+			    </div>
+			</div>
+			<div class="card text-black bg-light mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Postal</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{ip-postal:}</h4>
+			    </div>
+			</div>
+		</div>
+
+		
+		<!-- google maps loc (lat, long) -->
+		<div class="card bg-primary mb-0 float-left" style="max-width: 65%;">
+			<div class="card-header text-white">Maps Location</div>
+
+			<div class="card text-white bg-dark mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header"><span id="lat">Latitude: <span id="lat-loc">{ip-lat:}</span></span> <span id="long">Longitude: <span id="long-loc">{ip-long:}</span></span></div>
+			    <div class="card-body">
+			        <img src="maps.jpg">
+			    </div>
+			</div>
+		</div>
+
+		
+		<!-- asn network -->
+		<div class="card bg-primary mb-0 float-right" style="max-width: 35%; width: 35rem;">
+			<div class="card-header text-white">ASN: <span id="asn">{ip-asn:}</span></div>
+
+			<div class="card text-white bg-success mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Name</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{asn-name:}</h4>
+			    </div>
+			</div>
+			<div class="card text-black border-success mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Domain</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{asn-domain:}</h4>
+			    </div>
+			</div>
+			<div class="card text-white bg-info mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Company</div>
+			    <div class="card-body">
+			        <h4 class="card-title">{asn-route:}</h4>
+			    </div>
+			</div>
+			<div class="card text-white bg-secondary mb-3 mainInfo" style="max-width: 100%;">
+			    <div class="card-header">Name: <span id="asn-type">{asn-type:}</span></div>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>

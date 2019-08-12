@@ -1,0 +1,101 @@
+/* main css file */
+@font-face{
+	font-family: 'Sansation';
+	src: url('Sansation_Regular.woff');
+}
+
+body{
+	font-family: 'Sansation', sans-serif;
+}
+
+
+/*main container*/
+.main{
+	margin-top: 10px;
+}
+.main h4{
+	margin: 10px 0px 10px 0px;
+}
+
+#project-name{
+	background-color: #455A64;
+	padding: 10px;
+	border-radius: 10px;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 20px;
+}
+#project-status{
+	float: right;
+	font-size: 16px;
+	background-color: #43A047;
+	padding: 5px;
+	color: #ffffff;
+	border-radius: 5px;
+	font-weight: normal;
+}
+
+#start-time{
+	background-color: #FBC02D;
+	padding: 5px;
+	color: #ffffff;
+	border-radius: 5px;
+	float: left;
+}
+#end-time{
+	background-color: #388E3C;
+	padding: 5px;
+	color: #ffffff;
+	border-radius: 5px;
+	float: right;
+}
+
+#ipweb{
+	background-color: #1976D2;
+	padding: 5px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.card{
+	margin: 10px 0 10px 0;
+}
+
+.mainInfo{
+	margin: 10px;
+}
+
+#long{
+	margin-left: 25px;
+}
+
+#lat-loc, #long-loc{
+	padding: 5px;
+	background-color: #ffffff;
+	color: #000000;
+	border-radius: 5px;
+	border: 1px solid #2E7D32;
+}
+
+#asn{
+	margin-left: 20px;
+	background-color: #1976D2;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+}
+#asn-type{
+	margin-left: 20px;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#company-name, #company-domain{
+	padding: 5px;
+	background-color: #ffffff;
+	color: #FF8F00;
+	border-radius: 5px;
+	border: 1px solid #FF8F00;
+}
