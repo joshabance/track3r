@@ -35,4 +35,4 @@ _This simple script generates HTML Document report tracking info._
 Version 0.1[Beta]
 
 ## Author
-*Anna Kushina*
+#### Anna Kushina
